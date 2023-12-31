@@ -1,0 +1,243 @@
+###########################################################################
+#                           MechWarrior II                                #
+#                         Input Mapping File                              #
+#                                                                         #
+#  This file allows you to configure the inputs to the MechWarrior sim.   #
+#                                                                         #
+###########################################################################
+
+# Available controls
+# torso_tilt
+# torso_tilt_plus
+# torso_tilt_minus
+# torso_tilt_reset
+# torso_pan
+# torso_pan_plus
+# torso_pan_minus
+# torso_pan_set
+# torso_pan_reset
+# throttle
+# legs_pan_delta
+# jumpjet_enabled
+# jumpjet_fire_left
+# jumpjet_fire_right
+# jumpjet_fire_forward
+# jumpjet_fire_backward
+# throttle_plus
+# throttle_minus
+# throttle_set
+# weapon_fire
+# weapon_cycle
+# weapon_fire_group
+# weapon_fire_group_1
+# weapon_fire_group_2
+# weapon_fire_group_3
+# weapon_cycle_group
+# toggle_group_fire
+# legs_pan_minus
+# legs_pan_plus
+# advance_nav
+# previous_nav
+# reset_nav
+# advance_target
+# previous_target
+# reset_target
+# target_reticle
+# target_friendly
+# nearest_enemy
+# target_last_shot
+# inspect_target
+# advance_gamepiece
+# previous_gamepiece
+# reset_gamepiece
+# advance_gamething
+# previous_gamething
+# reset_gamething
+# self_destruct
+# autopilot
+# pilot_tilt
+# pilot_tilt_plus
+# pilot_tilt_minus
+# pilot_tilt_reset
+# pilot_pan
+# pilot_pan_plus
+# pilot_pan_minus
+# pilot_pan_reset
+# glance_left
+# glance_right
+# glance_up
+# glance_down
+# eyepoint_tilt
+# eyepoint_tilt_plus
+# eyepoint_tilt_minus
+# eyepoint_tilt_reset
+# eyepoint_pan_delta
+# eyepoint_pan_plus
+# eyepoint_pan_minus
+# eyepoint_pan_reset
+# eyepoint_slide_delta
+# eyepoint_slide_plus
+# eyepoint_slide_minus
+# track_distance_delta
+# track_distance_plus
+# track_distance_minus
+# track_height_delta
+# track_height_plus
+# track_height_minus
+# zoom_factor
+# zoom_factor_plus
+# zoom_factor_minus
+# zoom_factor_reset
+# menu_item
+# menu_item_reset
+# menu_value
+# menu_value_reset
+# menu_enter
+# menu_abort
+
+# mw2shell CockPit Config generated map file
+# some controls are already loaded in GAMEKEY.MAP by default
+# setup option 1A
+
+############ Mouse Controls ############
+
+torso_tilt {
+        + mouse         Up/Down
+}
+torso_pan {
+        + mouse         Left/Right
+}
+weapon_fire {
+	+ keyboard          *F
+}
+target_reticle {
+    + keyboard          *E
+}
+weapon_cycle {
+    + keyboard          Z
+}
+
+############ Basic Piloting ############
+
+throttle_plus {
+	+ keyboard	*W
+        - keyboard      Shift
+}
+throttle_minus {
+	+ keyboard	*S
+        - keyboard      Shift
+}
+legs_pan_minus {
+	+ keyboard	*A
+        - keyboard      Shift
+}
+legs_pan_plus {
+	+ keyboard	D
+        - keyboard      Shift
+}
+
+############ Jumpjets ############
+
+jumpjet_enabled {
+	+ keyboard	Space
+}
+jumpjet_fire_forward {
+	+ keyboard	*W
+        + keyboard      Shift
+}
+jumpjet_enabled {
+	+ keyboard	*W
+        + keyboard      Shift
+}
+jumpjet_fire_backward {
+	+ keyboard	*S
+        + keyboard      Shift
+}
+jumpjet_enabled {
+	+ keyboard	*S
+        + keyboard      Shift
+}
+jumpjet_fire_left {
+	+ keyboard	*A
+        + keyboard      Shift
+}
+jumpjet_enabled {
+	+ keyboard	*A
+        + keyboard      Shift
+}
+jumpjet_fire_right {
+	+ keyboard	D
+        + keyboard      Shift
+}
+jumpjet_enabled {
+	+ keyboard	D
+        + keyboard      Shift
+}
+
+############ Weapons ############
+
+weapon_fire_group_1 {
+        + mouse         LeftBtn
+}
+weapon_fire_group_2 {
+        + mouse         RightBtn
+}
+weapon_fire_group_3 {
+        + mouse         MiddleBtn
+}
+
+############ Cockpit Cameras ############
+
+zoom_factor_plus {
+	+ keyboard	*X
+	- keyboard	Shift
+}
+# zoom_factor_minus {
+#	+ keyboard	*X
+#	+ keyboard	Shift
+# }
+pilot_pan_minus {
+        + keyboard      GreyLeftArrow
+}
+pilot_pan_plus {
+        + keyboard      GreyRightArrow
+}
+pilot_tilt_minus {
+        + keyboard      GreyDownArrow
+}
+pilot_tilt_plus {
+        + keyboard      GreyUpArrow
+}
+
+############ External Cameras ############
+
+track_distance_plus {
+	+ keyboard	*X
+        - keyboard      Shift
+}
+track_distance_minus {
+	+ keyboard	*X
+        + keyboard      Shift
+}
+eyepoint_pan_minus {
+	+ keyboard	GreyLeftArrow
+}
+eyepoint_pan_plus {
+	+ keyboard	GreyRightArrow
+}
+track_height_minus {
+	+ keyboard	GreyUpArrow
+        - keyboard      Shift
+}
+eyepoint_tilt_minus {
+        + keyboard      GreyUpArrow
+        + keyboard      Shift
+}
+track_height_plus {
+	+ keyboard	GreyDownArrow
+        - keyboard      Shift
+}
+eyepoint_tilt_plus {
+        + keyboard      GreyDownArrow
+        + keyboard      Shift
+}

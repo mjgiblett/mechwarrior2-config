@@ -1,0 +1,110 @@
+#***********************************************
+#*
+#*  MechWarrior II Keyboard Mapping File
+#*
+#*  MODIFY THIS FILE AT YOUR OWN RISK.
+#*
+#***********************************************
+
+# setup option 1A
+
+############ AI Commands / Menus ############
+
+MAIN_MENU                       Esc
+DISPLAY_OBJECTIVES              y
+USER_MENU                       u
+
+ALL_PT_MENU                     1
+ALL_PT_MENU                     ALT+1
+PT_2_MENU                       ALT+2
+PT_3_MENU                       ALT+3
+
+############ F-Key Displays / Cameras #############
+
+NEXT_RADAR_MODE                 F1
+RADAR_ZOOM_IN                   F2
+RADAR_ZOOM_OUT                  SHIFT+F2
+RADAR_MAP_TOGGLE                F3
+
+ENHANCED_VISION			F4
+INFRARED                        SHIFT+F4
+
+MFD_CYCLE                       F5
+TOGGLE_DAMAGE_DISPLAY           F6
+TOGGLE_HTAL                     F7
+TOGGLE_REAR_VIEW                F8
+TOGGLE_DOWN_VIEW                F9
+TOGGLE_WEAPON_DISPLAY           F10
+TOGGLE_TARGET_DISPLAY           F11
+TOGGLE_HUD                      F12
+
+COCKPIT_VIEW                    Enter
+ORDINANCE_VIEW                  \
+
+COCKPIT_RESET_ZOOM              SHIFT+x
+
+############ Piloting ############
+
+RESET_INPUTS	                v
+FEET_TO_TORSO                   g
+
+THROTTLE_STOP                   c
+THROTTLE_STOP                   CTRL+1
+THROTTLE_2                      CTRL+2
+THROTTLE_3                      CTRL+3
+THROTTLE_4                      CTRL+4
+THROTTLE_5                      CTRL+5
+THROTTLE_6                      CTRL+6
+THROTTLE_7                      CTRL+7
+THROTTLE_8                      CTRL+8
+THROTTLE_9                      CTRL+9
+THROTTLE_FULL                   CTRL+0
+
+REVERSE_DIRECTION               q
+TOGGLE_MASC                     3
+TOGGLE_AUTOPILOT                6         
+
+############ Targeting ############
+
+NEXT_TARGET                     t
+PREV_TARGET                     SHIFT+t
+TARGET_NEAREST_ENEMY            r
+TARGET_FRIENDLY			4
+# TARGET_AT_RETICLE
+# RESET_TARGETTING             
+
+INSPECT_TARGET                  2
+
+NEXT_NAVPOINT                   5
+PREV_NAVPOINT                   SHIFT+5
+
+############ Weapons ############
+
+ADD_WEAPON_TO_GROUP_1           SHIFT+1
+ADD_WEAPON_TO_GROUP_2           SHIFT+2
+ADD_WEAPON_TO_GROUP_3           SHIFT+3
+
+TOGGLE_GROUP_FIRE               SHIFT+Tab
+
+NEXT_WEAPON_GROUP               Tab
+# FIRE_WEAPON_GROUP
+
+JETTISON_AMMO                   h                       
+
+############ Internal Systems ############
+
+OVERRIDE_SHUTDOWN               b
+SHUTDOWN_MECH                   n
+STARTUP_MECH                    SHIFT+n
+
+TOGGLE_AUTOEJECT                CTRL+[
+EJECT                           CTRL+]
+SELF_DESTRUCT                   CTRL+\
+
+############ Miscellaneuos ############
+
+DUMP_GIF                        CTRL+p
+PAUSE_GAME                      PAUSE
+
+# CRACK_MODE
+# EXIT_SIM                      
